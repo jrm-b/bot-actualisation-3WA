@@ -15,7 +15,7 @@ Pour que le navigateur de s'ouvre pas et que le bot effectue son travail en tâc
   - **ligne 9 - 10** : texte des textarea de la dernière page.
   - **ligne 42** : choisir lettre de réponse pour la première question (avez vous eux des contacts ?)
   - **ligne 51 - 57** : choisir réponse aux questions de la dernière page (besoin d'aide ? ... )
-  - **ligne 68** : choix du nombre d'étoile (avis).
+  - **ligne 68** : choix du nombre d'étoiles (avis).
   - **ligne 85 - 86** : dé-commenté les 2 lignes afin d'activer la validation.
   - **ligne 90 - 92** : dé-commenté les 2 lignes pour fermer le browser à la fin de l'actualisation.
 
