@@ -4,10 +4,10 @@ import { delayBy5Seconds } from "./utils.js"
 export default async function Actualisation3WA () {
 ""
     const url = "https://tally.so/r/wbqDY2";
-    const myEmail = "your_email@adress.com";
+    const myEmail = "your_email@here.com";
 
-    const textarea1 = "YOUR_TEXT_HERE";
-    const textarea2 = "YOUR_TEXT_HERE";
+    const textarea1 = "your_text_here";
+    const textarea2 = "your_text_here";
 
     const browser = await puppeteer.launch({ headless: false });
     const page = await browser.newPage();
@@ -17,7 +17,7 @@ export default async function Actualisation3WA () {
 
     // Starting
 
-    const next = await page.waitForSelector('button.sc-4288e84c-1.eSOgDn');
+    const next = await page.waitForSelector('button.sc-4288e84c-1.dqAsFw');
     await next.click({ delay: 1000 });
 
     // Email page
@@ -82,8 +82,8 @@ export default async function Actualisation3WA () {
 
 
     // Validation
-    // const validate = next;
-    // await validate.click();
+    const validate = next;
+    await validate.click();
 
     console.log('Actualisation challenge alternance réussis.');
     
